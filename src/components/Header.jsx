@@ -59,9 +59,9 @@ const Header = () => {
         <div className="md:hidden bg-white border-t border-gray-100 py-4 px-[80px]">
           <div className="flex flex-col space-y-4">
             {["Nos offres", "Nos jeux", "Album 2025", "À propos"].map((item) => (
-              <a key={item} className="font-['Poppins'] font-medium text-sm text-[#334155] cursor-pointer hover:text-[#0B6B3A] transition">
+              <span key={item} className="font-['Poppins'] font-medium text-sm text-[#334155] cursor-pointer hover:text-[#0B6B3A] transition">
                 {item}
-              </a>
+              </span>
             ))}
             <button className="flex items-center justify-center px-5 py-2.5 gap-2 w-full h-10 bg-gradient-to-r from-[#16A34A] to-[#0B6B3A] shadow-[0px_4px_6px_-1px_rgba(0,0,0,0.1),0px_2px_4px_-2px_rgba(0,0,0,0.1)] rounded-lg">
               <span className="font-['Poppins'] font-medium text-sm text-white">Demander un démo</span>
