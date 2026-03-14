@@ -29,21 +29,21 @@ const Footer = () => {
             </p>
 
             <div className="flex gap-3 mt-4">
-              <a className="w-8 h-8 bg-[#E2E8F0] rounded-lg flex items-center justify-center hover:bg-[#16A34A] transition-colors cursor-pointer">
+              <span className="w-8 h-8 bg-[#E2E8F0] rounded-lg flex items-center justify-center hover:bg-[#16A34A] transition-colors cursor-pointer">
                 <FaFacebookF size={16} className="text-[#475569] hover:text-white transition-colors" />
-              </a>
-              <a className="w-8 h-8 bg-[#E2E8F0] rounded-lg flex items-center justify-center hover:bg-[#16A34A] transition-colors cursor-pointer">
+              </span>
+              <span className="w-8 h-8 bg-[#E2E8F0] rounded-lg flex items-center justify-center hover:bg-[#16A34A] transition-colors cursor-pointer">
                 <IconBrandX size={16} className="text-[#475569] hover:text-white transition-colors" />
-              </a>
-              <a className="w-8 h-8 bg-[#E2E8F0] rounded-lg flex items-center justify-center hover:bg-[#16A34A] transition-colors cursor-pointer">
+              </span>
+              <span className="w-8 h-8 bg-[#E2E8F0] rounded-lg flex items-center justify-center hover:bg-[#16A34A] transition-colors cursor-pointer">
                 <IconBrandX size={16} className="text-[#475569] hover:text-white transition-colors" />
-              </a>
-              <a className="w-8 h-8 bg-[#E2E8F0] rounded-lg flex items-center justify-center hover:bg-[#16A34A] transition-colors cursor-pointer">
+              </span>
+              <span className="w-8 h-8 bg-[#E2E8F0] rounded-lg flex items-center justify-center hover:bg-[#16A34A] transition-colors cursor-pointer">
                 <FaInstagram size={16} className="text-[#475569] hover:text-white transition-colors" />
-              </a>
-              <a className="w-8 h-8 bg-[#E2E8F0] rounded-lg flex items-center justify-center hover:bg-[#16A34A] transition-colors cursor-pointer">
+              </span>
+              <span className="w-8 h-8 bg-[#E2E8F0] rounded-lg flex items-center justify-center hover:bg-[#16A34A] transition-colors cursor-pointer">
                 <FaLinkedinIn size={16} className="text-[#475569] hover:text-white transition-colors" />
-              </a>
+              </span>
             </div>
           </div>
 
@@ -55,9 +55,9 @@ const Footer = () => {
             <ul className="space-y-3">
               {['Nos offres', 'Nos jeux', 'Album 2025', 'À propos'].map((item, index) => (
                 <li key={index}>
-                  <a className="text-[#475569] hover:text-[#0B6B3A] transition font-poppins text-sm cursor-pointer">
+                  <span className="text-[#475569] hover:text-[#0B6B3A] transition font-poppins text-sm cursor-pointer">
                     {item}
-                  </a>
+                  </span>
                 </li>
               ))}
             </ul>
@@ -79,9 +79,9 @@ const Footer = () => {
               </li>
               {['Mentions légales', 'Protection des données (CNDP)', "Conditions d'utilisation"].map((item, index) => (
                 <li key={index}>
-                  <a className="text-[#475569] hover:text-[#0B6B3A] transition font-poppins text-sm cursor-pointer">
+                  <span className="text-[#475569] hover:text-[#0B6B3A] transition font-poppins text-sm cursor-pointer">
                     {item}
-                  </a>
+                  </span>
                 </li>
               ))}
             </ul>

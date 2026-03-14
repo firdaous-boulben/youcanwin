@@ -33,9 +33,9 @@ const Header = () => {
         {/* Navigation */}
         <nav className="hidden md:flex items-center gap-3 h-10">
           {["Nos offres", "Nos jeux", "Album 2025", "À propos"].map((item) => (
-            <a key={item} className="px-3 py-2 rounded-md cursor-pointer hover:text-[#0B6B3A] transition">
+            <span key={item} className="px-3 py-2 rounded-md cursor-pointer hover:text-[#0B6B3A] transition">
               <span className="font-['Poppins'] font-medium text-sm text-[#334155]">{item}</span>
-            </a>
+            </span>
           ))}
 
           {/* Demo Button */}
