@@ -12,7 +12,7 @@ const Header = () => {
         {/* Logo */}
         <div className="flex items-center gap-3 w-[226px] h-10">
           <div className="flex justify-center items-center w-10 h-10 bg-gradient-to-br from-[#16A34A] to-[#0B6B3A] shadow-[0px_4px_6px_-1px_rgba(0,0,0,0.1),0px_2px_4px_-2px_rgba(0,0,0,0.1)] rounded-xl">
-            <img src={logo} alt="YouCanWin" />
+            <img src={logo} alt="Logo" />
           </div>
           {/* Text + Badge */}
           <div className="flex items-center gap-2">
@@ -33,9 +33,9 @@ const Header = () => {
         {/* Navigation */}
         <nav className="hidden md:flex items-center gap-3 h-10">
           {["Nos offres", "Nos jeux", "Album 2025", "À propos"].map((item) => (
-            <div key={item} className="px-3 py-2 rounded-md">
+            <a key={item} className="px-3 py-2 rounded-md cursor-pointer hover:text-[#0B6B3A] transition">
               <span className="font-['Poppins'] font-medium text-sm text-[#334155]">{item}</span>
-            </div>
+            </a>
           ))}
 
           {/* Demo Button */}
@@ -59,7 +59,7 @@ const Header = () => {
         <div className="md:hidden bg-white border-t border-gray-100 py-4 px-[80px]">
           <div className="flex flex-col space-y-4">
             {["Nos offres", "Nos jeux", "Album 2025", "À propos"].map((item) => (
-              <a key={item} href={`#${item.toLowerCase().replace(/\s+/g, '-')}`} className="font-['Poppins'] font-medium text-sm text-[#334155]">
+              <a key={item} className="font-['Poppins'] font-medium text-sm text-[#334155] cursor-pointer hover:text-[#0B6B3A] transition">
                 {item}
               </a>
             ))}

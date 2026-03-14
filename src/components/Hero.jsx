@@ -70,7 +70,7 @@ const Hero = () => {
 
         {/* Right Column */}
         <div className="relative">
-            <img src={hero} className="shadow-2xl relative z-10 w-full max-w-md mx-auto"/>
+            <img src={hero} alt="Album Digital 2025" className="shadow-2xl relative z-10 w-full max-w-md mx-auto"/>
   
             {/* Top Right Card */}
             <div className="absolute top-0 right-0 bg-white rounded-2xl shadow-xl p-4 max-w-[210px] z-20">

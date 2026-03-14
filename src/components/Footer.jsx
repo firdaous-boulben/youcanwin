@@ -13,7 +13,7 @@ const Footer = () => {
           <div className='lg:col-span-2'>
             <div className="flex items-center gap-3 w-[226px] h-10 mb-2">
               <div className="flex justify-center items-center w-8 h-8 bg-gradient-to-br from-[#16A34A] to-[#0B6B3A] shadow-[0px_4px_6px_-1px_rgba(0,0,0,0.1),0px_2px_4px_-2px_rgba(0,0,0,0.1)] rounded-xl">
-                <img src={logo} alt="YouCanWin" />
+                <img src={logo} alt="Logo" />
               </div>
               <div className="relative w-[175px] h-7">
                 <h3 className="font-['Poppins'] font-bold text-lg leading-7">
@@ -29,28 +29,19 @@ const Footer = () => {
             </p>
 
             <div className="flex gap-3 mt-4">
-              <a 
-                href="#" 
-                className="w-8 h-8 bg-[#E2E8F0] rounded-lg flex items-center justify-center hover:bg-[#16A34A] transition-colors"
-              >
+              <a className="w-8 h-8 bg-[#E2E8F0] rounded-lg flex items-center justify-center hover:bg-[#16A34A] transition-colors cursor-pointer">
                 <FaFacebookF size={16} className="text-[#475569] hover:text-white transition-colors" />
               </a>
-              <a 
-                href="#" 
-                className="w-8 h-8 bg-[#E2E8F0] rounded-lg flex items-center justify-center hover:bg-[#16A34A] transition-colors"
-              >
+              <a className="w-8 h-8 bg-[#E2E8F0] rounded-lg flex items-center justify-center hover:bg-[#16A34A] transition-colors cursor-pointer">
                 <IconBrandX size={16} className="text-[#475569] hover:text-white transition-colors" />
               </a>
-              <a 
-                href="#" 
-                className="w-8 h-8 bg-[#E2E8F0] rounded-lg flex items-center justify-center hover:bg-[#16A34A] transition-colors"
-              >
+              <a className="w-8 h-8 bg-[#E2E8F0] rounded-lg flex items-center justify-center hover:bg-[#16A34A] transition-colors cursor-pointer">
+                <IconBrandX size={16} className="text-[#475569] hover:text-white transition-colors" />
+              </a>
+              <a className="w-8 h-8 bg-[#E2E8F0] rounded-lg flex items-center justify-center hover:bg-[#16A34A] transition-colors cursor-pointer">
                 <FaInstagram size={16} className="text-[#475569] hover:text-white transition-colors" />
               </a>
-              <a 
-                href="#" 
-                className="w-8 h-8 bg-[#E2E8F0] rounded-lg flex items-center justify-center hover:bg-[#16A34A] transition-colors"
-              >
+              <a className="w-8 h-8 bg-[#E2E8F0] rounded-lg flex items-center justify-center hover:bg-[#16A34A] transition-colors cursor-pointer">
                 <FaLinkedinIn size={16} className="text-[#475569] hover:text-white transition-colors" />
               </a>
             </div>
@@ -64,10 +55,7 @@ const Footer = () => {
             <ul className="space-y-3">
               {['Nos offres', 'Nos jeux', 'Album 2025', 'À propos'].map((item, index) => (
                 <li key={index}>
-                  <a 
-                    href="#" 
-                    className="text-[#475569] hover:text-[#0B6B3A] transition font-poppins text-sm"
-                  >
+                  <a className="text-[#475569] hover:text-[#0B6B3A] transition font-poppins text-sm cursor-pointer">
                     {item}
                   </a>
                 </li>
@@ -91,10 +79,7 @@ const Footer = () => {
               </li>
               {['Mentions légales', 'Protection des données (CNDP)', "Conditions d'utilisation"].map((item, index) => (
                 <li key={index}>
-                  <a 
-                    href="#" 
-                    className="text-[#475569] hover:text-[#0B6B3A] transition font-poppins text-sm"
-                  >
+                  <a className="text-[#475569] hover:text-[#0B6B3A] transition font-poppins text-sm cursor-pointer">
                     {item}
                   </a>
                 </li>
