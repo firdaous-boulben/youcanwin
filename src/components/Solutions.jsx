@@ -22,7 +22,7 @@ const Solutions = () => {
   ];
 
   return (
-    <section className="py-20 px-8 bg-gradient-to-b from-[#FFFFFF] to-[#F5F5F5] border-t border-[#E5E7EB]">
+    <section className="py-20 bg-gradient-to-b from-[#FFFFFF] to-[#F5F5F5] border-t border-[#E5E7EB]">
       <div className="container-custom px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left Column - Image */}

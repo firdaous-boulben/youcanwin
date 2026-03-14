@@ -31,16 +31,16 @@ const Hero = () => {
             </p>
 
             {/* Stats Section */}
-            <div className="flex flex-wrap gap-24 mb-8">
-                <div>
+            <div className="flex flex-col sm:flex-row sm:flex-wrap sm:gap-24 gap-6 mb-8">
+                <div className="flex flex-col ">
                     <div className="text-4xl font-bold text-[#0B6B3A]">500K+</div>
                     <div className="text-[14px] text-[#475569]">Interactions/mois</div>
                 </div>
-                <div>
+                <div className="flex flex-col ">
                     <div className="text-4xl font-bold text-[#B01219]">50+</div>
                     <div className="text-[14px] text-[#475569]">Marques actives</div>
                 </div>
-                <div>
+                <div className="flex flex-col ">
                     <div className="text-4xl font-bold text-[#0B6B3A]">x3.5</div>
                     <div className="text-[14px] text-[#475569]">ROI moyen</div>
                 </div>
