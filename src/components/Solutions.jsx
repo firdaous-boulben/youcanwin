@@ -27,7 +27,7 @@ const Solutions = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left Column - Image */}
             <div className="relative">
-                <img src={solutions} alt="solution" className="max-w-[448px] h-auto rounded-2xl shadow-2xl"/>
+                <img src={solutions} alt="solution" className="w-full max-w-[448px] sm:max-w-[400px] md:max-w-[448px] h-auto h-auto rounded-2xl shadow-2xl"/>
             </div>
 
             {/* Right Column - Text Content */}
