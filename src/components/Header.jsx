@@ -33,15 +33,15 @@ const Header = () => {
         {/* Navigation */}
         <nav className="hidden md:flex items-center gap-3 h-10">
           {["Nos offres", "Nos jeux", "Album 2025", "À propos"].map((item) => (
-            <span key={item} className="px-3 py-2 rounded-md cursor-pointer hover:text-[#0B6B3A] transition">
-              <span className="font-['Poppins'] font-medium text-sm text-[#334155]">{item}</span>
+            <span key={item} className="px-3 py-2 rounded-md cursor-pointer transition">
+              <span className="font-['Poppins'] font-medium text-sm text-[#334155] hover:text-[#0B6B3A] ">{item}</span>
             </span>
           ))}
 
           {/* Demo Button */}
-          <button className="flex items-center px-5 py-2.5 gap-2 w-[215px] h-10 bg-gradient-to-r from-[#16A34A] to-[#0B6B3A] shadow-[0px_4px_6px_-1px_rgba(0,0,0,0.1),0px_2px_4px_-2px_rgba(0,0,0,0.1)] rounded-lg">
-            <span className="font-['Poppins'] font-medium text-sm text-white">Demander un démo</span>
-            <ChevronRight size={16} className="text-white" />
+          <button className="flex items-center text-white px-5 py-2.5 gap-2 w-[215px] h-10 bg-gradient-to-r from-[#16A34A] to-[#0B6B3A] shadow-[0px_4px_6px_-1px_rgba(0,0,0,0.1),0px_2px_4px_-2px_rgba(0,0,0,0.1)] rounded-lg">
+            <span className="font-['Poppins'] font-medium text-sm">Demander un démo</span>
+            <ChevronRight size={16} />
           </button>
         </nav>
 

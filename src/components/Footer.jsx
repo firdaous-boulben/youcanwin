@@ -36,9 +36,6 @@ const Footer = () => {
                 <IconBrandX size={16} className="text-[#475569] hover:text-white transition-colors" />
               </span>
               <span className="w-8 h-8 bg-[#E2E8F0] rounded-lg flex items-center justify-center hover:bg-[#16A34A] transition-colors cursor-pointer">
-                <IconBrandX size={16} className="text-[#475569] hover:text-white transition-colors" />
-              </span>
-              <span className="w-8 h-8 bg-[#E2E8F0] rounded-lg flex items-center justify-center hover:bg-[#16A34A] transition-colors cursor-pointer">
                 <FaInstagram size={16} className="text-[#475569] hover:text-white transition-colors" />
               </span>
               <span className="w-8 h-8 bg-[#E2E8F0] rounded-lg flex items-center justify-center hover:bg-[#16A34A] transition-colors cursor-pointer">

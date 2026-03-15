@@ -47,13 +47,13 @@ const Hero = () => {
             </div>
             
             <div className="flex flex-wrap gap-4">
-                <button className="flex items-center justify-center px-5 py-2.5 gap-2 w-[204px] h-[64px] text-white bg-gradient-to-r from-[#16A34A] to-[#0B6B3A] shadow-[0px_4px_6px_-1px_rgba(0,0,0,0.1),0px_2px_4px_-2px_rgba(0,0,0,0.1)] rounded-xl">
-                    <span className="text-lg">Voir la démo</span>
+                <button className="flex items-center justify-center text-lg px-5 py-2.5 gap-2 w-[204px] h-[64px] text-white bg-gradient-to-r from-[#16A34A] to-[#0B6B3A] shadow-lg rounded-xl">
+                    Voir la démo
                     <ChevronRight size={16} />
                 </button>
-                <button className="flex items-center justify-center px-5 py-2.5 gap-2 w-[293px] h-[64px] text-[#334155] border-[2px] border-[#CBD5E1] bg-[#ffffff] hover:bg-transparent hover:border-[#334155] rounded-xl">
+                <button className="flex items-center justify-center text-lg px-5 py-2.5 gap-2 w-[293px] h-[64px] text-[#334155] border-[2px] border-[#CBD5E1] bg-[#ffffff] hover:bg-transparent hover:border-[#334155] rounded-xl">
                     <LightbulbIcon size={18} />
-                    <span className="text-lg">Comment ça marche</span>
+                    Comment ça marche
                 </button>
             </div>
 
